@@ -5,7 +5,7 @@ export const localProducts = [
     "price": 35.0,
     "rating": 3.5,
     "filter": "best seller",
-    "imageUrl": "../../assets/coffeeIce.png"
+    "imageUrl": "./assets/coffeeIce.png"
 },
 {
     "id": 2,
@@ -13,7 +13,7 @@ export const localProducts = [
     "price": 11.9,
     "rating": 5.0,
     "filter": "latest product",
-    "imageUrl": "../../assets/coffeeMocca.png"
+    "imageUrl": "./assets/coffeeMocca.png"
 },
 {
     "id": 3,
@@ -21,7 +21,7 @@ export const localProducts = [
     "price": 12.9,
     "rating": 4.0,
     "filter": "latest product",
-    "imageUrl": "../../assets/flapeLatte.webp"
+    "imageUrl": "./assets/flapeLatte.webp"
 },
 {
     "id": 4,
@@ -29,7 +29,7 @@ export const localProducts = [
     "price": 9.0,
     "rating": 4.0,
     "filter": "latest product",
-    "imageUrl": "../../assets/coffeLates.png"
+    "imageUrl": "./assets/coffeLates.png"
 },
 {
     "id": 5,
@@ -37,7 +37,7 @@ export const localProducts = [
     "price": 13.9,
     "rating": 4.5,
     "filter": "featured",
-    "imageUrl": "../../assets/mochaccino.png"
+    "imageUrl": "./assets/mochaccino.png"
 },
 {
     "id": 6,
@@ -45,7 +45,7 @@ export const localProducts = [
     "price": 12.9,
     "rating": 4.0,
     "filter": "featured",
-    "imageUrl": "../../assets/flapeLatte.webp"
+    "imageUrl": "./assets/flapeLatte.webp"
 },
 {
     "id": 7,
@@ -53,7 +53,7 @@ export const localProducts = [
     "price": 11.9,
     "rating": 5.0,
     "filter": "featured",
-    "imageUrl": "../../assets/coffeeMocca.png"
+    "imageUrl": "./assets/coffeeMocca.png"
 },
 {
     "id": 8,
@@ -61,6 +61,6 @@ export const localProducts = [
     "price": 23.9,
     "rating": 3.0,
     "filter": "best seller",
-    "imageUrl": "../../assets/minime_vermelha_1_1.webp"
+    "imageUrl": "./assets/minime_vermelha_1_1.webp"
 }
 ];
