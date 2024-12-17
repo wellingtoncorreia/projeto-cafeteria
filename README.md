@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do **Projeto Cafeteria**! Aqui você encontra uma aplicação web desenvolvida com o objetivo de proporcionar uma experiência interativa para quem busca conhecer uma cafeteria virtual.
 
-🚀 **[Acesse a aplicação aqui](https://wellingtoncorreia.github.io/projeto-cafeteria/home)** 🚀  
+🚀 **[Acesse a aplicação aqui](https://wellingtoncorreia.github.io/projeto-cafeteria)** 🚀  
 
 ---
 
