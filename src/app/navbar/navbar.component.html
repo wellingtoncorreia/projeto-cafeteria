@@ -1,0 +1,39 @@
+<!-- Componente de Navegação (navigation.component.html) -->
+<nav>
+    <div class="fonePesq">
+      <img src="../../assets/lupa.svg" alt="lupa">
+      |
+      <img src="../../assets/fone.svg" alt="fone">
+    </div>
+  
+    <div class="center">
+      <span class="nav-item"><a routerLink="">Home</a></span>
+      <span class="nav-item">Coffee Store</span>
+      <a (click)="toggleMobileMenu()" class="logo-button">
+        <img src="../../assets/logo.png" alt="Logo">
+      </a>
+      <span class="nav-item">Cold Coffee</span>
+      <span class="nav-item">More</span>
+    </div>
+  
+    <div class="fonePesq">
+      <a routerLink="/cadastro"><img src="../../assets/user.svg" alt="user"></a>
+      |
+      <img src="../../assets/bag.svg" alt="bag">
+    </div>
+  </nav>
+  
+  <!-- Modal / Dropdown com lista de itens escondidos -->
+  <div *ngIf="showMobileMenu" class="mobile-menu">
+    <ul>
+      <li><img src="../../assets/lupa.svg" alt="lupa"> Pesquisa</li>
+      <li><img src="../../assets/fone.svg" alt="fone"> Contato</li>
+      <li><a routerLink="/"><img src="../../assets/home.svg" alt="">Home</a></li>
+      <li><img src="../../assets/cafeteria.svg" alt="">Coffee Store</li>
+      <li><img src="../../assets/cupCafe.svg" alt="">Cold Coffee</li>
+      <li><img src="../../assets/plus.svg" alt="">More</li>
+      <li><a routerLink="/cadastro"><img  src="../../assets/user.svg" alt="user"> Conta</a></li>
+      <li><img src="../../assets/bag.svg" alt="bag"> Carrinho</li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,147 @@
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.tituloSub {
+    background-color: #1E2233;
+    padding: 5px;
+    min-width: 300px;
+
+}
+
+.inter {
+    border: 1px solid #fff;
+    width: 80vw;
+    padding-block: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.inter span {
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.groupLine {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.invert {
+    transform: rotateY(180deg)
+}
+
+.cup {
+    width: 220px;
+    height: 480px;
+    margin-top: -100px;
+}
+
+.lines,
+.line {
+    width: 100px;
+    margin-inline: 20px;
+    border-collapse: collapse;
+    border: 1px solid #fff;
+}
+
+.line {
+    width: 70px;
+}
+
+.cafe {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+.ico-coffee {
+    margin-bottom: 30px;
+    background-color: #BC8A55;
+    padding: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(24% 7%, 75% 7%, 100% 50%, 77% 93%, 24% 93%, 0% 50%);
+    transform: rotateZ(90deg);
+
+}
+
+.ico-coffee::after {
+    content: '';
+    position: absolute;
+    width: 6.4rem;
+    height: 6.4rem;
+    clip-path: inherit;
+    background-color: #1E2233;
+    z-index: -2;
+}
+
+.ico-coffee img {
+    width: 50px;
+    height: 50px;
+    transform: rotateZ(-90deg)
+}
+
+.text-icon{
+    width: 300px;
+}
+
+.text-icon h3{
+    font-weight: 700;
+}
+
+.text-icon span{
+    color: #8b8b8b;
+}
+
+.text-icon-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.right {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .content{
+        margin-bottom: 50px;
+    }
+    .cup{
+        display: none;
+    }
+
+    .inter{
+        justify-content: center;
+    }
+
+    .groupLine{
+        display: none;
+    }
+    .text-icon-contain{
+        padding-inline: 10px;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .ico-coffee{
+        display: none;
+    }
+}

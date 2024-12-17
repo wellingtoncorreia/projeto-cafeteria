@@ -1,0 +1,111 @@
+*{
+    text-decoration: none;
+}
+nav {
+    background-color: #0F111E;
+    border-bottom: 4px solid #BC8A55;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: relative; /* Necessário para posicionar o menu mobile */
+}
+
+a{
+    cursor: pointer;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #f0f0f0;
+}
+
+.logo-button{
+    height: 100%;
+    z-index: 100;
+}
+
+.center img {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    margin-top: -30px;
+    margin: 3px;
+    align-self: flex-end;
+    filter: drop-shadow(0 3px 0 #BC8A55);
+   
+}
+
+.fonePesq {
+    display: flex;
+    align-items: center;
+}
+
+.fonePesq img {
+    width: 20px;
+    height: 20px;
+    filter: none;
+    margin: 10px;
+}
+
+/* Estilos para o modo mobile */
+@media (max-width: 800px) {
+    .center {
+        justify-content: center;
+    }
+
+    .nav-item {
+        display: none; /* Esconde os itens de navegação no modo mobile */
+    }
+    .logo-button{
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .fonePesq {
+        display: none; /* Esconde os ícones de telefone e pesquisa */
+    }
+}
+
+/* Estilos para o menu que aparece ao clicar no logo */
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #0F111E;
+    border: 1px solid #BC8A55;
+    padding: 20px;
+    width: 100%;
+    color: #f0f0f0;
+    z-index: 10; /* Para aparecer sobre outros elementos */
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mobile-menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #BC8A55;
+}
+
+.mobile-menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Estilos adicionais para o botão de fechar o menu no modo mobile */
+.mobile-menu .close-button {
+    text-align: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #BC8A55;
+    font-size: 18px;
+    font-weight: bold;
+}
